@@ -1,0 +1,35 @@
+{
+    "author": {
+        "name": "Shambhu"
+    },
+    "bugs": {
+        "url": "https://github.com/vermaslal/node-dkim/issues"
+    },
+    "dependencies": {
+        "libmime": "^0.1.1"
+    },
+    "description": "DKIM signing code extracted from mailcomposer",
+    "devDependencies": {
+        "nodeunit": "~0.8.2"
+    },
+    "homepage": "https://github.com/vermaslal/node-dkim/dkim-signer",
+    "keywords": [
+        "DKIM",
+        "SMTP",
+        "node-dkim"
+    ],
+    "license": "MIT",
+    "main": "lib/dkim.js",
+    "maintainers": [
+        {
+            "name": "Shambhu",
+            "email": "vermaslal@gmail.com"
+        }
+    ],
+    "name": "node-dkim",
+    "optionalDependencies": {},
+    "scripts": {
+        "test": "nodeunit test"
+    },
+    "version": "0.0.2"
+}
